@@ -1,0 +1,6 @@
+tmp/*
+vendor/*
+bower_components/*
+composer.phar
+composer.lock
+!empty

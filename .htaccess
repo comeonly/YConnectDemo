@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+	RewriteRule "(^|/)(\.git)/" - [F]
+</IfModule>
+<Files ~ "\.(txt|log|json|md|phar|lock|yml)$">
+deny from all
+</Files>
