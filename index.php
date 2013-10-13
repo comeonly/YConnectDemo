@@ -60,25 +60,19 @@
 		<meta name="author" content="">
 
 		<!-- Le styles -->
-		<link href="vendor/twbs/bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
 		<style>
 			body {
 					padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 			}
 		</style>
-		<link href="vendor/twbs/bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
-		<script src="vendor/twbs/bootstrap/docs/assets/js/html5shiv.js"></script>
+		<script src="assets/js/html5shiv.js"></script>
 		<![endif]-->
 
-		<!-- Fav and touch icons -->
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="vendor/twbs/bootstrap/docs/assets/ico/apple-touch-icon-144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="vendor/twbs/bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="vendor/twbs/bootstrap/docs/assets/ico/apple-touch-icon-72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="vendor/twbs/bootstrap/docs/assets/ico/apple-touch-icon-57-precomposed.png">
-		<link rel="shortcut icon" href="vendor/twbs/bootstrap/docs/assets/ico/favicon.png">
 	</head>
 	<body>
 
@@ -95,8 +89,8 @@
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="https://github.com/comeonly/YConnectDemo">About</a></li>
+							<li><a href="https://github.com/comeonly/YConnectDemo">Contact</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
@@ -178,10 +172,10 @@
 	<!-- Le javascript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="bower_components/jquery/jquery.min.js"></script>
-	<script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
-	<script src="vendor/twbs/bootstrap/docs/assets/js/bootstrap.min.js"></script>
-	<script src="bower_components/jquery_vgrid_plugin/jquery.vgrid.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.vgrid.min.js"></script>
 	<script type="text/javascript">
 	//<![CDATA[
 	$(function(){

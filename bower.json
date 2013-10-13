@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "jquery_vgrid_plugin": "git://github.com/xlune/jQuery-vGrid-Plugin.git",
-    "jquery.easing": "~1.3"
+    "jquery.easing": "~1.3",
+    "bootstrap": "2.3.2"
   },
   "ignore": [
     "**/.*",

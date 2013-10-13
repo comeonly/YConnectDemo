@@ -2,7 +2,6 @@
     "require" : {
         "opauth/opauth": "dev-master",
         "opauth/yahoojp" : "dev-master",
-        "querypath/querypath" : "~3.0.2",
-        "twbs/bootstrap" : "~2.3.2"
+        "querypath/querypath" : "~3.0.2"
     }
 }
