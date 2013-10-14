@@ -1,11 +1,13 @@
 web1:
   name: yconnect-demo
   shared_writable_dirs:
-    - tmp/
+    - tmp
   php_extensions:
     - curl
+    - zip
+    - intl
   after_build:
     - "curl -sS https://getcomposer.org/installer | php"
     - "php composer.phar install"
-  before_deploy:
-    - "mkdir tmp"
+    - "mv vendor/opauth/yahoojp/YahoojpStrategy.php vendor/opauth/yahoojp/yahoojpStrategy.php"
+
